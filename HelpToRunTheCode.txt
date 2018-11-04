@@ -1,0 +1,27 @@
+Just follow the steps 1-3.
+
+1.Run "AdvancedDataSetCreator.py".
+After a few seconds it will ask you to "enter person's id" 
+you can enter any number you prefer. However, you must notice that each specified number id is dedicated to a specific person. thereby, remember each person's id.
+Detector's code is written in such a way that it detects frontal face and profile face (both right and left sides). Hence, you don't have to stare at the picamera all the time. you can make head-turns and look around.
+while detecting faces, you must observe the following messages on the screen.For instance,
+Found 1 frontal_face
+Found 1 profile-face
+Found 1 profile-face-flipped
+In above mentioned messages number '1' is in the case that only one person stands in front of the camera.
+In some cases you may observe that althogh the person is looking to his/her rightside, you get messages (frontal_face and profile_face) together. this is actually good and it depends mostly on the samples included in Haarcascade xml files.
+
+Once sampling is done, press 'q' to exit.
+you must also be able to see captured photos of faces in the folder named 'datasets'.
+
+2.Run "AdvancedTrainer.py".
+This will create a '.yml' file for you in the folder named 'recognizer'.
+
+3.Run "Advanced Detector.py" and Enjoy.
+
+Feel free to ask if you had further questions about the codes or you encounter with errors while running.
+LinkedIn:https://www.linkedin.com/in/milad-diba-9a7760125
+
+
+Best of luck
+		Milad
